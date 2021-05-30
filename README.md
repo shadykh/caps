@@ -138,11 +138,9 @@ EVENT { event: 'delivered',
 
   - For the repo ***caps*** clicks => [here](https://github.com/shadykh/caps).
   - Pull Requests:
-    - [https://github.com/shadykh/caps/pull/2](https://github.com/shadykh/caps/pull/2)
+    - [https://github.com/shadykh/caps/pull/3](https://github.com/shadykh/caps/pull/3)
     - GitHub actions:
-      - [https://github.com/shadykh/caps/runs/2680053839?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680053839?check_suite_focus=true)
-      - [https://github.com/shadykh/caps/runs/2680055833?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680055833?check_suite_focus=true)
-      - [https://github.com/shadykh/caps/runs/2680056537?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680056537?check_suite_focus=true)
+      - [https://github.com/shadykh/caps/runs/2705267659?check_suite_focus=true](https://github.com/shadykh/caps/runs/2705267659?check_suite_focus=true)
   - Local Tests:
     - ![localTest](https://raw.githubusercontent.com/shadykh/caps/main/assets/localTest.png)
   - GitHub Tests:
