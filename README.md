@@ -1,14 +1,36 @@
 # Lab: Class 11
 
+## Index
+
+- [LAB: Event Driven Applications](#LAB:-Event-Driven-Applications)
+- [Business Requirements](#Business-Requirements)
+- [Phase 1 Requirements](#Phase-1-Requirements)
+- [Technical Requirements / Notes](#Technical-Requirements-/-Notes)
+- [The lab tree](#The-lab-tree)
+- [Testing](#Testing)
+- [More about the Lab](#More-about-the-Lab)
+  - [Author](#Author)
+  - [Github](#Github)
+  - [UML](#UML)
+  - [Tests](#Tests)
+  - [Tests](#App)
+- [Author Links](#Author-Links)
+
+---
+
 # LAB: Event Driven Applications
 
 **CAPS Phase 1:** Begin the build of an application for a company called **CAPS** - The Code Academy Parcel Service. In this sprint, we'll build out a system that emulates a real world supply chain. **CAPS** will simulate a delivery service where vendors (such a flower shops) will ship products using our delivery service and when our drivers deliver them, be notified that their customers received what they purchased.
 
 Tactically, this will be an event driven application that "distributes" the responsibility for logging to separate modules, using only events to trigger logging based on activity.
 
+**[⬆ Back to Index](#index)**
+
 ## Business Requirements
 
 Refer to the [CAPS System Overview](../../apps-and-libraries/caps/README.md) for a complete review of the application, including Business and Technical requirements along with the development roadmap.
+
+**[⬆ Back to Index](#index)**
 
 ## Phase 1 Requirements
 
@@ -26,6 +48,8 @@ And as developers, here are some of the development stories that are relevant to
 
 - As a developer, I want to use industry standards for managing the state of each package
 - As a developer, I want to create an event driven system so that I can write code that happens in response to events, in real time
+
+**[⬆ Back to Index](#index)**
 
 ## Technical Requirements / Notes
 
@@ -86,9 +110,13 @@ EVENT { event: 'delivered',
 ...
 ```
 
+**[⬆ Back to Index](#index)**
+
 #### **The lab tree**
 
 - ![Tree](./assets/tree.gif)
+
+**[⬆ Back to Index](#index)**
 
 #### **Testing**
 
@@ -98,34 +126,44 @@ EVENT { event: 'delivered',
 - Should console log that the DRIVER: delivered up [as an example{4ea998b3-1b15-4a05-bc23-ac60a0e2c210}], when delivered event is on
 - Should been called with the previous console log
 
+**[⬆ Back to Index](#index)**
 
 ### **More about the Lab**
 
+- #### Author
+  - Shady Khaled
+
+  **[⬆ Back to Index](#index)**
 - #### Github
 
   - For the repo ***caps*** clicks => [here](https://github.com/shadykh/caps).
   - Pull Requests:
     - [https://github.com/shadykh/caps/pull/2](https://github.com/shadykh/caps/pull/2)
     - GitHub actions:
-        - [https://github.com/shadykh/caps/runs/2680053839?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680053839?check_suite_focus=true)
-        - [https://github.com/shadykh/caps/runs/2680055833?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680055833?check_suite_focus=true)
-        - [https://github.com/shadykh/caps/runs/2680056537?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680056537?check_suite_focus=true)
+      - [https://github.com/shadykh/caps/runs/2680053839?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680053839?check_suite_focus=true)
+      - [https://github.com/shadykh/caps/runs/2680055833?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680055833?check_suite_focus=true)
+      - [https://github.com/shadykh/caps/runs/2680056537?check_suite_focus=true](https://github.com/shadykh/caps/runs/2680056537?check_suite_focus=true)
   - Local Tests:
-    - ![localTest](https://raw.githubusercontent.com/shadykh/caps/main/assets/localTest.PNG)
+    - ![localTest](https://raw.githubusercontent.com/shadykh/caps/main/assets/localTest.png)
   - GitHub Tests:
     - ![github tests](https://raw.githubusercontent.com/shadykh/caps/main/assets/githubtests.PNG)
   - Output:
     - ![output](https://raw.githubusercontent.com/shadykh/caps/main/assets/output.PNG)
 
+**[⬆ Back to Index](#index)**
+
 - #### UML
 
-  - ![UML](https://raw.githubusercontent.com/shadykh/auth-api/main/assets/UML.PNG)
+  - ![UML](https://raw.githubusercontent.com/shadykh/caps/main/assets/uml.png)
+
+**[⬆ Back to Index](#index)**
 
 - #### Tests
 
   - run `npm test`
-  - Test code ➡️ [bearer-auth-middleware.test.js](./__tests__/app.test.js)
+  - Test code ➡️ [app.test.js](./__tests__/app.test.js)
 
+**[⬆ Back to Index](#index)**
 
 - #### App
 
@@ -146,11 +184,14 @@ EVENT { event: 'delivered',
     - VsCode.
     - Ubuntu.
 
+**[⬆ Back to Index](#index)**
 
 <br>
 
 ---
 <br>
+
+## Author Links
 
 - ### Shady Khaled github ✅
 
